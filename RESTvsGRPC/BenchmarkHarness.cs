@@ -12,7 +12,7 @@ namespace RESTvsGRPC
     [HtmlExporter]
     public class BenchmarkHarness
     {
-        [Params(100, 200)]
+        [Params(2, 4)]
         public int IterationCount;
 
         readonly RESTClient restClient = new RESTClient();
